@@ -10,3 +10,7 @@ class IndexView(generic.ListView):
 
 class CreatData(generic.CreateView):
     pass
+
+class veiwData(generic.UpdateView):
+    pass
+
