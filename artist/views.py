@@ -7,3 +7,6 @@ from django.urls import reverse_lazy
 
 class IndexView(generic.ListView):
     pass
+
+class CreatData(generic.CreateView):
+    pass
