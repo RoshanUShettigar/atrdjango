@@ -11,4 +11,7 @@ class Artist(models.Model):
         return self.Artist_name
 
 class Articles(models.Model):
-  pass
+    Artist_id = models.ForeignKey(Artist, on_delete=models.CASCADE)
+    Article_name=models.CharField(max_length=50)
+    Publisher=models.CharField(max_length=50)
+
